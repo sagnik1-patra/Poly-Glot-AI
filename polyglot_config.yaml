@@ -1,0 +1,30 @@
+run:
+  timestamp: '20250908_145355'
+  mode: unsupervised
+  audio_dir: C:\Users\sagni\Downloads\Poly Glot AI\archive\audio
+  text_dir: C:\Users\sagni\Downloads\Poly Glot AI\archive\text
+  csv_path: C:\Users\sagni\Downloads\Poly Glot AI\archive\British English Speech Recognition.csv
+  out_dir: C:\Users\sagni\Downloads\Poly Glot AI
+features:
+  audio:
+    sr: 16000
+    n_mfcc: 13
+  text:
+    tfidf:
+      analyzer: char
+      ngram_range:
+      - 2
+      - 4
+      max_features: 800
+    stats:
+    - char_len
+    - word_count
+    - avg_word_len
+supervised:
+  label_column: null
+  label_mapping: null
+  candidates: null
+  chosen_model: null
+unsupervised:
+  algorithm: MiniBatchKMeans
+  n_clusters: 5

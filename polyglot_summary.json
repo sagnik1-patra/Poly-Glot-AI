@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-09-08 15:52:19",
+  "model_path": "C:\\Users\\sagni\\Downloads\\Poly Glot AI\\polyglot_model.pkl",
+  "audio_dir": "C:\\Users\\sagni\\Downloads\\Poly Glot AI\\archive\\audio",
+  "text_dir": "C:\\Users\\sagni\\Downloads\\Poly Glot AI\\archive\\text",
+  "csv_path": "C:\\Users\\sagni\\Downloads\\Poly Glot AI\\archive\\British English Speech Recognition.csv",
+  "n_rows": 5,
+  "prediction_column": "prediction",
+  "unique_predictions": {
+    "0": 1,
+    "1": 1,
+    "3": 1,
+    "2": 1,
+    "4": 1
+  },
+  "probabilities_included": false,
+  "details": {
+    "cluster_distances_shape": [
+      5,
+      5
+    ]
+  }
+}

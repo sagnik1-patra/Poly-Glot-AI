@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-09-08 15:47:38",
+  "audio_dir": "C:\\Users\\sagni\\Downloads\\Poly Glot AI\\archive\\audio",
+  "text_dir": "C:\\Users\\sagni\\Downloads\\Poly Glot AI\\archive\\text",
+  "csv_path": "C:\\Users\\sagni\\Downloads\\Poly Glot AI\\archive\\British English Speech Recognition.csv",
+  "label_strategy": "Text column 'Text' (normalized)",
+  "models": {
+    "LogisticRegression": {
+      "accuracy": 0.0,
+      "roc_auc": 1.0,
+      "chosen_score": 1.0
+    },
+    "RandomForest": {
+      "accuracy": 0.0,
+      "roc_auc": 0.0,
+      "chosen_score": 0.0
+    }
+  },
+  "best_model": "LogisticRegression",
+  "class_to_index": {
+    "text/1.txt": 0,
+    "text/2.txt": 1,
+    "text/3.txt": 2,
+    "text/4.txt": 3,
+    "text/5.txt": 4
+  },
+  "labels_used_sorted": [
+    0,
+    1,
+    2,
+    4
+  ]
+}
